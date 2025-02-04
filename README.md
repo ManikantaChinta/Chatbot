@@ -6,7 +6,6 @@ This project is focused on enhancing cryptocurrency trading support through the 
 
 # Chatbot Development and Configuration
 The project experimented with three different chatbot models: Llama 3.2, Gemma, and Mistral 7B, each in two configurations: base and RAG-enhanced. 
-
 **Base Models**: Operated without external data retrieval, focusing solely on response generation based on pre-trained models.
 **RAG Models**: Enhanced with the capability to pull in external information to provide more contextually relevant answers.
 
@@ -28,7 +27,6 @@ Performance was measured using several NLP metrics:
   
 # Trading Strategy Analysis
 The trading aspect of the project focused on developing strategies using technical indicators like RSI (Relative Strength Index) and SMA (Simple Moving Average) to automate trading decisions on Bitcoin and Ethereum.
-
 **Performance Metrics**: Included total return, Sharpe Ratio, and maximum drawdown.
 **Strategic Findings**: Strategies that incorporated an 8-hour trading window proved most effective, balancing risk management with profit potential.
 

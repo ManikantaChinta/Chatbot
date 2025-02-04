@@ -6,6 +6,7 @@ This project is focused on enhancing cryptocurrency trading support through the 
 
 # Chatbot Development and Configuration
 The project experimented with three different chatbot models: Llama 3.2, Gemma, and Mistral 7B, each in two configurations: base and RAG-enhanced. 
+
 **Base Models**: Operated without external data retrieval, focusing solely on response generation based on pre-trained models.
 
 **RAG Models**: Enhanced with the capability to pull in external information to provide more contextually relevant answers.
@@ -21,6 +22,7 @@ The project experimented with three different chatbot models: Llama 3.2, Gemma, 
 
 # Performance Evaluation
 Performance was measured using several NLP metrics:
+
 **BLEU and ROUGE Scores**: Assessed lexical accuracy and overlap.
 
 **BERT Score**: Evaluated semantic similarity between the chatbot responses and a set of standard answers.
